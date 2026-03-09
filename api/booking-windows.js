@@ -43,7 +43,7 @@ export default async function handler(req, res) {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
-        'Authorization': HCP_API_KEY
+        'Authorization': `Token ${HCP_API_KEY}`
       }
     });
 
